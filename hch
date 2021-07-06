@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 2.8.3)
 project(dual_ros_example)
 
 macro(print_all_variables)
@@ -39,9 +39,7 @@ else()
   message("ROS2 install")
 
 find_package(ament_cmake REQUIRED)
-find_package(ament_cmake_python REQUIRED)
-
-ament_python_install_package("dual_ros_example")
+find_package(rclcpp REQUIRED)
 
   install(PROGRAMS
       nodes/example_node
