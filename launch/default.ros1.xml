@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="dual_ros_example" name="example_node" type="example_node"></node>
+</launch>
