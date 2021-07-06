@@ -6,9 +6,8 @@
   <description>Dual ROS Example</description>
   <maintainer email="dheera@dheera.net">dheera</maintainer>
   <license>MIT</license>
-  <buildtool_depend>catkin</buildtool_depend>
   <export>
-          <!--                        <build_type>ament_cmake</build_type> -->
+                            <build_type>ament_cmake</build_type>
   </export>
 </package>
 

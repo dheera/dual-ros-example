@@ -11,15 +11,15 @@ setup(
         ('share/' + package_name, ['package.xml']),
     ],
     install_requires=['setuptools'],
-    zip_safe=True,
+    #zip_safe=True,
     maintainer='root',
     maintainer_email='root@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
-    entry_points={
-        'console_scripts': [
-            "example_node = dual_ros_example.example_node:main",
-        ],
-    },
+    #entry_points={
+    #    'console_scripts': [
+    #        "example_node = dual_ros_example.example_node:main",
+    #    ],
+    #},
 )
