@@ -12,7 +12,7 @@ catkin_init_workspace
 git clone https://github.com/dheera/dual-ros-example
 cd ..
 catkin_make
-source devel/install.bash
+source devel/setup.bash
 rosrun dual_ros_example example_node
 ```
 
@@ -25,6 +25,6 @@ cd colcon_ws/src/
 git clone https://github.com/dheera/dual-ros-example
 cd ..
 colcon build
-source install/install.bash
+source install/setup.bash
 ros2 run dual_ros_example example_node
 ```
